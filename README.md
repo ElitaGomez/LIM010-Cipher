@@ -48,6 +48,7 @@
 
 
 -   Imagen del prototipo final en Balsamiq.
+
     !  [Con titulo](<PROTOTIPO FINAL 1.jpg> "PROTOTIPO FINAL 1")
 
     !  [Con titulo](<PROTOTIPO FINAL 2.jpg> "PROTOTIPO FINAL 2")
