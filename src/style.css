@@ -1,1 +1,51 @@
 /* Acá van tus reglas de estilo */
+body {
+    background:url('fondo salud.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    text-align: center;
+  }
+  .contenedor{
+  width:60%;
+  padding:2%;
+  margin: 4% 20%;
+  border-radius:10px ;
+  background: #ffffff;
+  font-family: Kavoon;
+  color:#000;
+    }
+
+h1 {
+   color: #008B8B;
+   text-shadow: brown 0 0 ;
+   font-size: 400%;
+  }
+
+P{
+    color: #A9A9A9;
+    text-shadow: brown 0 0 ;
+    font-size: 400%;
+  }
+
+input, textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+     box-sizing: border-box;
+  }
+
+textarea {
+      vertical-align: top;
+      height: 5em;
+      resize: vertical;
+  }
+
+button{
+    background-color: #A9A9A9;
+    background-position: center center;
+    text-align: center;
+}
