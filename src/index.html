@@ -7,51 +7,55 @@
 </head>
 
 <body>
-  <div id="login" class="inicio">
-    <header>INTER-SEGURO</header>
-    <p>Plataforma en tiempo real</p>
-    <main>
-      <form>
+  <header>...</header>
+
+  <main>
+    //primer cuadro de formulario LOGIN
+
+    <form class="acceso" id = "login">
+        <img src='LOGO.jpg' class="logo" />
+        <h1><strong>INTER-SALUD</strong></h1>
+        <p>Plataforma en tiempo real...</p>
+        <label for="username">USUARIO</label><br>
+        <input type="text" id="username" placeholder="Ingrese su nombre" /><br>
+
+        <label for="password">CONTRASEÑA</label><br>
+        <input type="password" id="password" placeholder="Ingrese su contraseña"  required /><br><br>
+
+        <div id="error"></div>
+        <button type="button" id="next">INGRESAR</button><br>
+
+    </form>
+
+    <form class="cifrado hide" id = "cipher">
+        <img src='LOGO.jpg' class="logo" />
+        <h2><strong>INTER-SALUD</strong></h2>
+        <label for="message">MENSAJE</label>
+        <textarea id="message" placeholder="Ingrese su reporte" rows="8" cols="30" required></textarea><br><br>
+
+        <label for="clave">CLAVE</label>
+        <input type="number" id="clave" min="1" max="20" placeholder="número" required><br><br>
+
         <div>
-          <label for="username">USUARIO</label><br>
-          <input type="text" id="username" placeholder="Ingrese su nombre" /><br>
-          <div />
-          <div>
-            <label for="password">CONTRASEÑA</label><br>
-            <input type="password" id="password".value="LABORATORIA" placeholder="Ingrese su contraseña" /><br>
-          </div>
-          <button type="button" id="next">INGRESAR</button>
-          <div />
-      </form>
+          <input type="button" id="encode" value="CIFRAR">
+          <input type="button" id="clean" value="LIMPIAR">
+          <input type="button" id="decode" value="DESCIFRAR">
+        </div>
 
-      <div id="cipher" class="contenedor" style="display:none">
-        <form>
-          <h2>INTER-SEGURO</h2><br>
-          <label for="message">MENSAJE</label>
-          <textarea id="message" placeholder="Ingrese su reporte" rows="8" cols="30" required></textarea>
-          <div>
-            <label for="offset">CLAVE</label>
-            <input type="number" id="offset" min="1" max="20" placeholder="elija una clave" required>
-          </div>
-          <div>
-            <input type="button" id="encode" value="CIFRAR">
-            <input type="button" id="clean" value="LIMPIAR">
-            <input type="button" id="decode" value="DESCIFRAR">
-          </div>
-          <label for="result">RESULTADO</label>
-          <textarea id="result" rows="8" cols="30"></textarea>
-          <div class="enviar">
-            <button type="submit">ENVIAR MENSAJE</button>
-          </div>
-        </form>
+        <label for="result">RESULTADO</label>
+        <textarea id="result" rows="8" cols="30"></textarea><br><br>
 
+        <div class="enviar">
+          <button type="submit">ENVIAR MENSAJE</button>
+        </div>
+    </form>
 
-    </main>
+  </main>
 
+  <footer>...</footer>
 
-    <footer></footer>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
+  <script src="cipher.js"></script>
+  <script src="index.js"></script>
 </body>
 
 </html>

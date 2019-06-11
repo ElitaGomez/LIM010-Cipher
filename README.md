@@ -9,8 +9,6 @@
      INTER-SEGURO
 
 -   Un resumen de 1 o 2 líneas de qué se trata tu proyecto.
-    Herramienta que permite la interaccion en tiempo real de los colaboradores de la agencia con el area de soporte,a través de mensajes cifrados, para resolver los problemas en los procesos de pago(error en datos de usuarios, pagos nulos o vencidos) de los usuarios.
-
 -   La imagen final de tu proyecto.
 
 
@@ -31,9 +29,9 @@
 
     Luego colocarás la foto de tu primer prototipo en papel
 
-    !   [Con titulo](<PROTOTIPO PAPEL 1.jpg> "PROTOTIPO PAPEL 1")
+    ![Con titulo](<PAPEL1.jpg> "PROTOTIPO PAPEL 1")
 
-    !   [Con titulo](<PROTOTIPO PAPEL 2.jpg> "PROTOTIPO PAPEL 2")
+    ! [Con titulo](<PAPEL2.jpg> "PROTOTIPO PAPEL 2")
 
 -   Agregar un resumen del feedback recibido indicando las mejoras a realizar.
 
