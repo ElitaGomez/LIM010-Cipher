@@ -1,4 +1,3 @@
-/* Acá va tu código */
 const inicio = document.getElementById("login");
 const reporte = document.getElementById("cipher");
 const contraseña = document.getElementById("password");
@@ -14,28 +13,40 @@ ingresar.addEventListener("click", (event) => {
   if (contraseña === "LABORATORIA") {
     inicio.classList.add("hide");
     reporte.classList.remove("hide");
-  } else if (contador == 2) {
-    document.getElementById("error").innerHMTL = "ya no puedes ingresar";
-  } else {
+  } 
+  else if 
+   (contador == 2) {
+   document.getElementById("error").innerHMTL= "Ya utilizaste todos tus intentos, en este momento no podrás ingresar";
+  } 
+  else {
     contador++
-    document.getElementById("error").innerHMTL = "contraseña incorrecta";
+    document.getElementById("error").innerHMTL= "contraseña incorrecta";
   }
+  console.log(contador)
 });
 
 
-//llamando a mis variables//
-let clave = document.getElementById("clave");  clave//offset(desplazamiento)
-let mensaje=document.getElementById("message"); mensaje//string(texto a cifrar)
 
-//generando evento para desencadenar la funcion cifrar//
 
-document.getElementById("encode").addEventListener("click",(value)=>{
-  event.preventDefault();
-    document.getElementById("result").value=cipher.encode(clave.value, mensaje.value);
+// cifrando el mensaje 
+
+const cifrar1 = document.getElementById("encode");
+const descifrar1 = document.getElementById("decode");
+
+
+cifrar1.addEventListener("click", () => {
+  let cifrado = document.getElementById("encode").value;
+  let llave1 = parseInt(document.getElementById("clave").value);
+  let resultado1 = document.getElementById("result");
+  resultado1.value = cipher.encode(llave1,cifrado);
 });
+  
 
-//generando evento para desencadenar la funcion descifrar//
-
-document.getElementById("decode").addEventListener("click",()=>{
-document.getElementById("result").value=cipher.decode(clave.value, mensaje.value);
+descifrar1.addEventListener("click", () => {
+  let descifrado = document.getElementById("decode").value;
+  let llave2 = parseInt(document.getElementById("clave").value);
+  let resultado2 = document.getElementById("result");
+  resultado1.value = cipher.decode(llave1,cifrado);
 });
+   
+
