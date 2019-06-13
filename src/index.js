@@ -13,40 +13,43 @@ ingresar.addEventListener("click", (event) => {
   if (contraseña === "LABORATORIA") {
     inicio.classList.add("hide");
     reporte.classList.remove("hide");
-  } 
-  else if 
-   (contador == 2) {
-   document.getElementById("error").innerHMTL= "Ya utilizaste todos tus intentos, en este momento no podrás ingresar";
-  } 
+  }
+  else if
+    (contador == 3) {
+    document.getElementById("error").innerHTML = "Ya utilizaste todos tus intentos, en este momento no podrás ingresar";
+  }
   else {
     contador++
-    document.getElementById("error").innerHMTL= "contraseña incorrecta";
+    document.getElementById("error").innerHTML = "contraseña incorrecta";
   }
-  console.log(contador)
-});
+ });
 
 
 
 
 // cifrando el mensaje 
 
-const cifrar1 = document.getElementById("encode");
-const descifrar1 = document.getElementById("decode");
+const btncifrar = document.getElementById("encode");
+const btndescifrar = document.getElementById("decode");
 
 
-cifrar1.addEventListener("click", () => {
-  let cifrado = document.getElementById("encode").value;
-  let llave1 = parseInt(document.getElementById("clave").value);
-  let resultado1 = document.getElementById("result");
-  resultado1.value = cipher.encode(llave1,cifrado);
+btncifrar.addEventListener("click", () => {
+  let string = document.getElementById("message").value.toUpperCase();
+  let offset = parseInt(document.getElementById("clave").value);
+  document.getElementById("result").innerHTML = cipher.encode(offset, string);
 });
-  
 
-descifrar1.addEventListener("click", () => {
-  let descifrado = document.getElementById("decode").value;
-  let llave2 = parseInt(document.getElementById("clave").value);
-  let resultado2 = document.getElementById("result");
-  resultado1.value = cipher.decode(llave1,cifrado);
+
+btndescifrar.addEventListener("click", () => {
+  let string = document.getElementById("message").value;
+  let offset = parseInt(document.getElementById("clave").value);
+  document.getElementById("result").innerHTML = cipher.decode(offset, string);
+
 });
-   
 
+
+document.getElementById("clean").addEventListener("click", (event) => {
+  event.preventDefault
+  document.getElementById("result").innerHTML = null;
+  document.getElementById("message").value = null;
+})

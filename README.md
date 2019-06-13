@@ -26,9 +26,9 @@
 
 -   Luego colocarás la foto de tu primer prototipo en papel
 
-    ! [Con titulo](<PAPEL1.jpg> "PROTOTIPO PAPEL 1")
+    ! [Con titulo](<PAPEL1.jpg> "PAPEL 1")
 
-    ! [Con titulo](<PAPEL2.jpg> "PROTOTIPO PAPEL 2")
+    ! [Con titulo](<PAPEL2.jpg> "PAPEL 2")
 
 -   Agregar un resumen del feedback recibido indicando las mejoras a realizar.
 
@@ -43,7 +43,6 @@
 
 
 -   Imagen del prototipo final en Balsamiq.
-
-    ! [Con titulo](<PAPEL1.jpg> "PROTOTIPO PAPEL 1")
-
-    ! [Con titulo](<PAPEL2.jpg> "PROTOTIPO PAPEL 2")
+    ! [Con titulo](<PROTOTIPO FINAL 1.jpg> "PROTOTIPO PAPEL 1")
+    ! [Con titulo](<PROTOTIPO FINAL 2.jpg> "PROTOTIPO PAPEL 2")
+    

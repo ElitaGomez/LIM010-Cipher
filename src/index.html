@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <title>Caesar Cipher</title>
@@ -10,48 +11,47 @@
   <header>...</header>
 
   <main>
-    //primer cuadro de formulario LOGIN
 
-    <form class="acceso" id = "login">
+    <form class="acceso" id="login">
 
-        <img src='LOGO.jpg' class="logo" />
-        <h1><strong>INTER-SALUD</strong></h1>
-        <p>Plataforma en tiempo real...</p>
+      <img src='LOGO.jpg' class="logo" />
+      <h1><strong>INTER-SALUD</strong></h1>
+      <p>Plataforma en tiempo real...</p>
 
-        <label for="username">USUARIO</label><br>
-        <input type="text" id="username" placeholder="Ingrese su nombre" /><br>
+      <label for="username">USUARIO</label><br>
+      <input type="text" id="username" placeholder="Ingrese su nombre" /><br>
 
-        <label for="password">CONTRASEÑA</label><br>
-        <input type="password" id="password" placeholder="Ingrese su contraseña"  required /><br><br>
+      <label for="password">CONTRASEÑA</label><br>
+      <input type="password" id="password" placeholder="Ingrese su contraseña" /><br><br>
 
-        <div id="error"></div>
-        <button type="button" id="next">INGRESAR</button><br>
+      <div id="error"></div>
+      <button type="button" id="next">INGRESAR</button><br>
 
     </form>
 
-    <form class="cifrado hide" id = "cipher">
+    <form class="cifrado hide" id="cipher">
 
-        <img src='LOGO.jpg' class="logo" />
-        <h2><strong>INTER-SALUD</strong></h2>
+      <img src='LOGO.jpg' class="logo" />
+      <h2><strong>INTER-SALUD</strong></h2>
 
-        <label for="message">MENSAJE</label>
-        <textarea id="message" placeholder="Ingrese su reporte" rows="8" cols="30" required></textarea><br><br>
+      <label for="message">MENSAJE</label>
+      <textarea id="message" placeholder="Ingrese su reporte" rows="8" cols="30" required></textarea><br><br>
 
-        <label for="clave">CLAVE</label>
-        <input type="number" id="clave" min="1" max="20" placeholder="número" required><br><br>
+      <label for="clave">CLAVE</label>
+      <input type="number" id="clave" min="1" max="26" placeholder="número" required><br><br>
 
-        <div>
-          <input type="button" id="encode" value="CIFRAR">
-          <input type="button" id="clean" value="LIMPIAR">
-          <input type="button" id="decode" value="DESCIFRAR">
-        </div>
+      <div>
+        <input type="button" id="encode" value="CIFRAR">
+        <input type="button" id="clean" value="LIMPIAR">
+        <input type="button" id="decode" value="DESCIFRAR">
+      </div>
 
-        <label for="result">RESULTADO</label>
-        <textarea id="result" rows="8" cols="30"></textarea><br><br>
+      <label for="result">RESULTADO</label>
+      <textarea id="result" rows="8" cols="30"></textarea><br><br>
 
-        <div class="enviar">
-          <button type="submit">ENVIAR MENSAJE</button>
-        </div>
+      <div class="enviar">
+        <button type="submit">ENVIAR MENSAJE</button>
+      </div>
 
     </form>
 
