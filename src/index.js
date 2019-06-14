@@ -1,8 +1,6 @@
 const inicio = document.getElementById("login");
 const reporte = document.getElementById("cipher");
-const contraseña = document.getElementById("password");
 const ingresar = document.getElementById("next");
-const error = document.getElementById("error");
 
 let contador = 0;
 
@@ -26,7 +24,6 @@ ingresar.addEventListener("click", (event) => {
 
 
 
-
 // cifrando el mensaje 
 
 const btncifrar = document.getElementById("encode");
@@ -47,9 +44,9 @@ btndescifrar.addEventListener("click", () => {
 
 });
 
-
 document.getElementById("clean").addEventListener("click", (event) => {
   event.preventDefault
   document.getElementById("result").innerHTML = null;
   document.getElementById("message").value = null;
+  document.getElementById("clean").innerHTML= null;
 })
