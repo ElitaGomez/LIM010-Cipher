@@ -1,3 +1,5 @@
+/*--Aqui trabajo el diseño del fondo del formulario */
+
 body {
   background-image: url(img/FONDO.jpg);
   background-repeat: no-repeat;
@@ -10,9 +12,12 @@ body {
   align-items: center;
 }
 
+/*--con este elemento oculto la segunda vista */
 .hide{
   display: none;
 }
+
+/*--aqui se va diseñando el cuadro que contiene los botones y cajas de texto  */
 
 form {
   background-size: 150%;
@@ -30,8 +35,8 @@ img {
   border: solid #fff 2px;
   margin-top: 0px;
 }
-
-img:hover {
+ 
+img:hover {  /*--efecto de rotacion de la imagen */
   border-radius: 50%;
   -webkit-border-radius: 50%;
   box-shadow: 0px 0px 15px 15px #ffd700;
@@ -40,9 +45,10 @@ img:hover {
   -webkit-transform: rotate(180deg);
 }
 
-#error{
+#error{     
 color: rgb(239, 243, 16);
 }
+
 
 h1, h2, p {
   color: #fff;
@@ -72,15 +78,6 @@ input {
   color: #262727;
 }
 
-input[type=button] {
-  font-size: 10px;
-  background-color: #48d1cc;
-  border: 2px solid #00008b;
-  color: #ffd700;
-  border-radius: 6px;
-  padding: 10px;
-}
-
 textarea {
   vertical-align: top;
   height: 5em;
@@ -94,19 +91,33 @@ textarea {
   color: #262727;
 }
 
-button {
+button, input[type=button] {
   text-decoration: none;
   padding: 10px;
   font-weight: 600;
   font-size: 20px;
   color: #262727;
   background-color: #1883ba;
-  border-radius: 6px;
+  border-radius: 5px;
   border: 2px solid #48d1cc;
 }
 
-button:hover {
+button, input[type=button]:hover {  /*--Aqui el efecto de sombreado de los botones*/
   color: #1883ba;
   background-color: #ffffff;
 }
+
+footer {
+  position: relative;
+  margin-top: 0px;
+  text-align: right;
+  color: #edf1f3;
+  padding:50px;
+  clear:both;
+  width:100%;
+  
+}
+
+
+
 
