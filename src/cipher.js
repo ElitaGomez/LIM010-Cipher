@@ -1,16 +1,16 @@
 window.cipher = {
   encode: (offset, string) => {
-
-    let cifra = "";
-    for (let i = 0; i < string.length; i++) {  //FOR para recorrer el largo de la palabra
+ 
+    let cifra = "";  // la variable nos servira para almacenar el valor del string cifrado
+    for (let i = 0; i < string.length; i++) {  // para recorrer todo el string del texto
       let numascii = string.charCodeAt(i);
-      if (65 <= numascii && numascii <= 90) {
-        cifra += String.fromCharCode((numascii - 65 + offset) % 26 + 65);//Stringforcharcode sirve para devolver en letra
-      } else if (numascii === 32) {
-        cifra += " ";
+      if (65 <= numascii && numascii <= 90) {  // valor de las letras mayusculas en ASCII
+        cifra += String.fromCharCode((numascii - 65 + offset) % 26 + 65); // formar la cadena del texto con el valor obtenido luego de aplicar formula
+      } else if (numascii === 32) {  // para verificar si es un espacio vacio
+        cifra += " ";  // añadir espacio en string cifrado
       }
     }
-    return cifra;
+    return cifra; //retorna el valor de la cadena cifrada
   },
 
   decode: (offset, string) => {
