@@ -1,7 +1,7 @@
 window.cipher = {
   encode: (offset, string) => {
- 
-    let cifra = "";  // la variable nos servira para almacenar el valor del string cifrado
+
+    let cifra = "";  // la variable let nos servira para almacenar el valor del string cifrado
     for (let i = 0; i < string.length; i++) {  // para recorrer todo el string del texto
       let numascii = string.charCodeAt(i);
       if (65 <= numascii && numascii <= 90) {  // valor de las letras mayusculas en ASCII

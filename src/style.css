@@ -3,7 +3,7 @@
 body {
   background-image: url(img/FONDO.jpg);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 100vw 100vh;
   display: flex;
   background-attachment: fixed;
   background-position: center center;
@@ -25,6 +25,7 @@ form {
   width: 120%;
   height: 120%;
   border: solid #48d1cc 1px;
+  margin: auto;
   margin-top: 0px
 }
 

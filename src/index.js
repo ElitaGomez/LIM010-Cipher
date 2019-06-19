@@ -23,7 +23,7 @@ ingresar.addEventListener("click", (event) => {
     contador++
     document.getElementById("error").innerHTML = "contraseña incorrecta";
   }
- });
+});
 
 // llamando a los ID de los botones de cifrado y descifrado 
 
@@ -40,7 +40,7 @@ btncifrar.addEventListener("click", () => {
 // llamando al boton descifrar
 btndescifrar.addEventListener("click", () => {
   let string = document.getElementById("message").value; // usamos let porque sabemos que nuestro elemento cambiarara segun el texto ingresado 
-  let offset = parseInt(document.getElementById("clave").value); 
+  let offset = parseInt(document.getElementById("clave").value);
   document.getElementById("result").innerHTML = cipher.decode(offset, string);
 
 });
@@ -50,5 +50,5 @@ document.getElementById("clean").addEventListener("click", (event) => {
   event.preventDefault
   document.getElementById("result").innerHTML = null;
   document.getElementById("message").value = null;
-  document.getElementById("clean").innerHTML= null;
+  document.getElementById("llave").innerHTML = null;
 })
