@@ -23,12 +23,18 @@ Esta idea fue reflejada en un primer momento, asi:
 El feedback que se recibió de los usuarios,para este caso, un grupo de colaboradores de las distintas agencias, luego de evaluar la propuesta indicaron:
 
 . Asignar un título (relacionado al tema)
+
 . Cambiar el orden del texto en el LOGIN
-. Cambiar el “mensaje de error” por otro más claro   de acuerdo a la acción.
+
+. Cambiar el “mensaje de error” por otro más claro de acuerdo a la acción.
+
 . Mantener el título en la segunda vista
-. El cuadro de texto del mensaje debe especificar    qué datos ingresar
+
+. El cuadro de texto del mensaje debe especificar qué datos ingresar
+
 . Cambiar la palabra desplazamiento por “clave”
 
+Este es mi prototipo final de BALSAMIQ
 
 ![Sin titulo](FINAL1.jpg)
 
