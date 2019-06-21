@@ -11,24 +11,20 @@ body {
   flex-direction: column;
   align-items: center;
 }
-
 /*--con este elemento oculto la segunda vista */
 .hide{
   display: none;
 }
-
 /*--aqui se va diseñando el cuadro que contiene los botones y cajas de texto  */
-
 form {
   background-size: 150%;
   align-items: center center;
-  width: 120%;
+  width: 150%;
   height: 120%;
-  border: solid #48d1cc 1px;
+  border: solid #ffffff 2px;
   margin: auto;
   margin-top: 0px
 }
-
 img {
   width: 100px;
   height: rgb(255, 0, 0);
@@ -36,37 +32,30 @@ img {
   border: solid #fff 2px;
   margin-top: 0px;
 }
- 
-img:hover {  /*--efecto de rotacion de la imagen */
+ img:hover {  /*--efecto de rotacion de la imagen */
   border-radius: 50%;
   -webkit-border-radius: 50%;
-  box-shadow: 0px 0px 15px 15px #ffd700;
   -webkit-box-shadow: 0px 0px 15px 15px #e4e3dc;
   transform: rotate(180deg);
   -webkit-transform: rotate(180deg);
 }
-
 #error{     
 color: rgb(239, 243, 16);
 }
-
-
 h1, h2, p {
-  color: #fff;
-  border: #48d1cc 2px;
+  color: #ffffff;
+  border: #FFFFFF 2px;
   text-align: center center;
   font-size: 120%;
   justify-content: space-between;
 }
-
 label {
   width: 90%;
   margin: 1% 0% 1% 0%;
   font-size: 20px;
   display: inline-block;
-  color: #fff;
+  color: #ffffff;
 }
-
 input {
   padding: 5px;
   font-weight: 200;
@@ -74,11 +63,10 @@ input {
   cursor: pointer;
   border-radius: 5px;
   outline: 0px;
-  background-color: rgba(255, 255, 255, .6);
-  border: solid 2px rgba(255, 255, 255, .01);
+  background-color: #ffffff;
+  border: solid 2px #ffffffff;
   color: #262727;
 }
-
 textarea {
   vertical-align: top;
   height: 5em;
@@ -87,27 +75,20 @@ textarea {
   border-radius: 5px;
   cursor: pointer;
   border-color: #fff8dc;
-  background-color: rgba(255, 255, 255, .6);
-  border: solid 2px rgba(255, 255, 255, .01);
+  background-color:#ffffff;
+  border: solid 2px #ffffff;
   color: #262727;
 }
-
-button, input[type=button] {
+button, input[type=button]{
   text-decoration: none;
   padding: 10px;
   font-weight: 600;
   font-size: 20px;
-  color: #262727;
+  color: #ffffff;
   background-color: #1883ba;
   border-radius: 5px;
   border: 2px solid #48d1cc;
 }
-
-button, input[type=button]:hover {  /*--Aqui el efecto de sombreado de los botones*/
-  color: #1883ba;
-  background-color: #ffffff;
-}
-
 footer {
   position: relative;
   margin-top: 0px;
