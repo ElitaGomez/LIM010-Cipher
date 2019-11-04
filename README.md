@@ -4,9 +4,9 @@
 Esta herramienta permite la interacción en tiempo real de los colaboradores de la agencia con el área de soporte,a través de mensajes cifrados, para resolver los problemas en los procesos de pago(error en datos de usuarios, pagos nulos o vencidos) de los usuarios.
 
      
-![Con titulo](CifradoCesar.png "titulo")
+                                        ![Con titulo](CifradoCesar.png "titulo")
 
-![Con titulo](CifradoCesar2.png "titulo")
+                                        ![Con titulo](CifradoCesar2.png "titulo")
     
 Las distintas operaciones del usuario que se realizan en la oficina de seguros están a cargo del Front Office, dentro de estas operaciones están los registros, actualizaciones o cambios, baja de registros, pagos de subsidios y orientación general.  Sin embargo, durante el proceso de generación de pagos de subsidios, surgen distintas dificultades para poder culminar la operación, tanto a nivel técnico como informáticos, por lo que usualmente se tiene que cortar con la atención y reportar estos casos al área de soporte, según sea el caso, para que puedan ser solucionados en un plazo de 48 horas. Los casos de problemas de sistemas o informáticos, si necesitan de un plazo para poder ser solucionados. En cambio, existen casos de errores básicos que pueden ser manejados y solucionados de manera inmediata por el área de soporte de prestaciones económicas, pero por la falta de una herramienta que permita la comunicación fluida entre estas dos áreas se ve afectado el proceso y calidad de atención.
 
